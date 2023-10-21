@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Line</title>
+    <link rel="stylesheet" type="text/css"  href="C:html&css\kursovaya\css\style.kurs1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+    
+</head>
+<body>
+    
+    <header class="container">
+        
+        <div class="header__content">
+            <a href="index.kurs1.html" class="header__logo"><i class='bx bx-movie' ></i>MovieLine</a>
+            <button class="button"  id="open_pop_up"><a href="#">Авторизация</a></button>
+            <form>
+                <input type="text" class="header__search" placeholder="Поиск">
+            </form>
+            
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <p>Регистрация</p>
+                        <form action="">
+                            <input type="email" placeholder="Введите email">
+                            <input type="password" placeholder="Придумайте пароль">
+                            <button id="btn">Зарегистрироваться</button>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="movies"></div>
+        <div class="modal"></div>
+    </div>
+   
+  
+    <script src="C:html&css\kursovaya\js\script.kurs1.js"></script>
+
+    
+</body>
+</html>
